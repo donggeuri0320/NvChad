@@ -12,6 +12,13 @@ return {
       require "configs.lspconfig"
     end,
   },
+  {
+    'smoka7/hop.nvim',
+    version = "*",
+    opts = {
+        keys = 'etovxqpdygfblzhckisuran'
+    }
+  },
 
   -- {
   -- 	"nvim-treesitter/nvim-treesitter",
