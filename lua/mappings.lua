@@ -28,6 +28,9 @@ vim.keymap.set("n", ";w", ":HopWord<CR>", { desc = "Hop to a word" })
 vim.keymap.set("n", ";e", ":HopPattern<CR>", { desc = "Hop to a word" })
 vim.keymap.set("n", ";i", ":HopVertical<CR>", { desc = "Hop to a word" })
 
+vim.keymap.set("n", "<C-e>", ":NvimTreeToggle<CR>", { desc = "Toggle NvimTree" })
+
+
 vim.keymap.set("v", ">", ">gv", { noremap = true, silent = true })
 vim.keymap.set("v", "<", "<gv", { noremap = true, silent = true })
 
