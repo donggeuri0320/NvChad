@@ -32,5 +32,6 @@ map("n", ";l", "<C-w>l", { noremap = true, silent = true })
 
 map("n", ";c", "yiw", { noremap = true, silent = true })
 map("n", ";v", "viwp", { noremap = true, silent = true })
-
+map("n", "<leader>aA", ":AvanteChat<CR>", { desc = "avante: chat" })
+map("n", "<leader>aN", ":AvanteChatNew<CR>", { desc = "avante: create new chat" })
 -- map("n", ";w", "<cmd>HopWord<cr>", { noremap = true, silent = true })
