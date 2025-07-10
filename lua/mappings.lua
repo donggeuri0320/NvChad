@@ -31,7 +31,10 @@ map("n", ";l", "<C-w>l", { noremap = true, silent = true })
 -- map("n", ",", ",", { noremap = true, silent = true })
 
 map("n", ";c", "yiw", { noremap = true, silent = true })
-map("n", ";v", "viwp", { noremap = true, silent = true })
+map("n", ";v", '"_diw"0P', { noremap = true, silent = true })
+map("v", ">", ">gv", { desc = "들여쓰기 후 선택 유지" })
+map("v", "<", "<gv", { desc = "내어쓰기 후 선택 유지" })
+
 map("n", "<leader>aA", ":AvanteChat<CR>", { desc = "avante: chat" })
 map("n", "<leader>aN", ":AvanteChatNew<CR>", { desc = "avante: create new chat" })
 -- map("n", ";w", "<cmd>HopWord<cr>", { noremap = true, silent = true })
