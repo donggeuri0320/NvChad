@@ -19,6 +19,7 @@ vim.api.nvim_create_autocmd({ "BufReadPost", "TextChanged", "TextChangedI" }, {
   end,
 })
 
+-- Zellij <-> Nvim 전환 시 Lock/Unlock
 local function zellij(mode)
   vim.schedule(function()
     if vim.env.ZELLIJ ~= nil then
