@@ -44,3 +44,5 @@ map("n", "<leader>bt", ":BookmarksTree<CR>", { desc = "Bookmark Tree"})
 map("n", "<leader>bn", ":BookmarksNewList<CR>", { desc = "Bookmark NewList"})
 map("n", "<leader>bl", ":BookmarksLists<CR>", { desc = "Bookmark List"})
 map("n", "<leader>bc", ":BookmarksCommands<CR>", { desc = "Bookmark Commands"})
+-- 예시: <leader>b (space + b)를 비활성화
+map("n", "<leader>b", "<Nop>", { noremap = true, silent = true })

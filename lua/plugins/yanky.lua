@@ -5,6 +5,7 @@ return {
   },
   opts = {
      ring = { storage = "sqlite" },
+     highlight = { timer = 100 },
   },
   keys = {
     { "<leader>p", "<cmd>YankyRingHistory<cr>", mode = { "n", "x" }, desc = "Open Yank History" },
